@@ -1,10 +1,10 @@
 package repl
 
 import (
-	"bufio"
-	"fmt"
-	"io"
-	"monkey/lexer"
+	"bufio"				// reading input
+	"fmt"					// printing output
+	"io"					// Reader and Writer
+	"monkey/lexer"		
 	"monkey/token"
 )
 
